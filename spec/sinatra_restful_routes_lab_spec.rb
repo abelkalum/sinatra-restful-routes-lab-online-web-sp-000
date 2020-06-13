@@ -50,7 +50,7 @@ describe "Recipe App" do
     end
 
     it "displays the recipe's ingredients" do
-      expect(page.body).to include(recipe_ingredients)
+      expect(page.body).to include(ingredients)
     end
 
     it "displays the recipe's cook time" do
